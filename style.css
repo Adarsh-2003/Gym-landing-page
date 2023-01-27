@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: url(./images/gym.jpg);
+    background-size: 1644px 1154px;
+}
+
+.btn {
+    margin: 8px 6px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 2px solid rgb(172, 175, 172);
+    border-radius: 23px;
+    padding: 7px 22px;
+    cursor: pointer;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    font-size: 21px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 120px;
+    filter: invert(100%);
+}
+
+.mid {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    /* border: 2px solid blue; */
+}
+
+.right {
+    position: absolute;
+    right: 11px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 36px;
+}
+
+.navbar li a:hover {
+    color: yellow;
+}
+
+.container {
+    border: 3px solid white;
+    width: 597px;
+    padding: 0px 0px 110px 33px;
+    margin: 65px 451px;
+    height: 134px;
+    border-radius: 10px;
+}
+
+.forms input {
+    display: block;
+    text-align: left;
+    width: 80%;
+    padding: 6px;
+    margin-bottom: 5px;
+    background-color: black;
+    border: solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: yellow;
+}
+
+.container h2 {
+    color: yellow;
+    top: 2px;
+    right: 5px;
+    padding-top: 2px;
+    padding-right: 55px;
+    text-align: center;
+}
+
+.right button:hover {
+    color: yellow;
+}
+
+.submitb button:hover {
+    color: yellow;
+}
+
+.submitb {
+    padding: 5px;
+    margin: -8px 210px;
+    margin-top: -8px;
+    margin-right: 210px;
+    margin-bottom: -8px;
+    margin-left: 210px;
+    left: 0px;
+    display: block;
+    width: 50%;
+}
